@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t;  // Number of test cases
+    
+    while (t--) {
+        int x, y;
+        cin >> x >> y;
+        
+        // Output the minimum followed by the maximum
+        cout << min(x, y) << " " << max(x, y) << endl;
+    }
+
+    return 0;
+}
